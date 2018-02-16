@@ -6,3 +6,11 @@ c:\users\alina_apet\documents\visual studio 2015\Projects\LINQtask\Runner\bin\De
 c:\users\alina_apet\documents\visual studio 2015\Projects\LINQtask\Runner\obj\Debug\Runner.csprojResolveAssemblyReference.cache
 c:\users\alina_apet\documents\visual studio 2015\Projects\LINQtask\Runner\obj\Debug\Runner.exe
 c:\users\alina_apet\documents\visual studio 2015\Projects\LINQtask\Runner\obj\Debug\Runner.pdb
+C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Runner\bin\Debug\Runner.exe.config
+C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Runner\obj\Debug\Runner.exe
+C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Runner\obj\Debug\Runner.pdb
+C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Runner\bin\Debug\Runner.exe
+C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Runner\bin\Debug\Runner.pdb
+C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Runner\bin\Debug\Class1.dll
+C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Runner\bin\Debug\Class1.pdb
+C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Runner\obj\Debug\Runner.csprojResolveAssemblyReference.cache

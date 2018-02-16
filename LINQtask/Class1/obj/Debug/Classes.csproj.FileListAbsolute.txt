@@ -3,3 +3,8 @@ c:\users\alina_apet\documents\visual studio 2015\Projects\LINQtask\Class1\bin\De
 c:\users\alina_apet\documents\visual studio 2015\Projects\LINQtask\Class1\bin\Debug\Class1.pdb
 c:\users\alina_apet\documents\visual studio 2015\Projects\LINQtask\Class1\obj\Debug\Class1.dll
 c:\users\alina_apet\documents\visual studio 2015\Projects\LINQtask\Class1\obj\Debug\Class1.pdb
+C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Class1\bin\Debug\Class1.dll
+C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Class1\bin\Debug\Class1.pdb
+C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Class1\obj\Debug\Classes.csprojResolveAssemblyReference.cache
+C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Class1\obj\Debug\Class1.dll
+C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Class1\obj\Debug\Class1.pdb

@@ -19,6 +19,12 @@ namespace Runner
 			for (int i = 1; i <= 200; i++)
 			{
 				fibonaccisecuence.Fibsec.Add(FibonacciSecuence.mtx2x2.fibm(i));
+				 
+			}
+
+			foreach (BigInteger element in fibonaccisecuence.Fibsec)
+			{
+				Console.WriteLine(element.IsPrime());
 			}
 			FibonacciSecuence.mtx2x2.Out(fibonaccisecuence);
 			Console.WriteLine(fibonaccisecuence.Fibsec.Count);
