@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Class1\Classes.c
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runner", "Runner\Runner.csproj", "{CFFBFC6B-B894-428A-84EA-0EC90A6EF5BE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7B1F73B5-9FD6-4D3E-8EE8-43676F3A1923}"
+	ProjectSection(SolutionItems) = preProject
+		Runner\bin\Debug\Customers.xml = Runner\bin\Debug\Customers.xml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

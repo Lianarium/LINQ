@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Classes
 {
-	class ReaderFromConsole
+	class ConsoleReader
 	{ 
 
 	  public static int ReadNumber()

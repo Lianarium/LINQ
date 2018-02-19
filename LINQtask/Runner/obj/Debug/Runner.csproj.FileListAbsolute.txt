@@ -14,3 +14,4 @@ C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Runner\bin\Debug\Run
 C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Runner\bin\Debug\Class1.dll
 C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Runner\bin\Debug\Class1.pdb
 C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Runner\obj\Debug\Runner.csprojResolveAssemblyReference.cache
+C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Runner\bin\Debug\Customers.xml

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Classes
 {
     public static class BigIntegerExtension
-    {
+	{
 		 
 	  public static bool IsPrime(this BigInteger n)
 		{
@@ -17,7 +17,10 @@ namespace Classes
 				if (n % i == 0)
 					return false;
 			return true;
+			
 		}
+
+			
 	}
     }
 

@@ -41,11 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Counter.cs" />
     <Compile Include="FibonacciSecuence.cs" />
-    <Compile Include="IntExtension.cs" />
+    <Compile Include="BigIntegerExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReaderFromConsole.cs" />
     <Compile Include="SelectNumbers.cs" />
+    <Compile Include="Total.cs" />
+    <Compile Include="XMLWorker.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

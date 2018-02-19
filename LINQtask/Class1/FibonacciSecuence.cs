@@ -6,9 +6,9 @@ using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Classes
+namespace Classes 
 {
-	public class FibonacciSecuence
+	public class FibonacciSecuence : IComparable <int>
 	{
 		int number;
 		ArrayList fibsec;
@@ -42,6 +42,16 @@ namespace Classes
 				tmp = tmp * tmp *
 					 (((power <<= 1) < 0) ? number : 1);
 			return tmp;
+		}
+
+		public int CompareTo(object obj)
+		{
+			throw new NotImplementedException();
+		}
+
+		public int CompareTo(int other)
+		{
+			throw new NotImplementedException();
 		}
 
 		public struct mtx2x2
