@@ -8,3 +8,9 @@ C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Class1\bin\Debug\Cla
 C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Class1\obj\Debug\Classes.csprojResolveAssemblyReference.cache
 C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Class1\obj\Debug\Class1.dll
 C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Class1\obj\Debug\Class1.pdb
+C:\Users\User1\Documents\HT5net\LINQ\LINQtask\Class1\bin\Debug\Class1.dll
+C:\Users\User1\Documents\HT5net\LINQ\LINQtask\Class1\bin\Debug\Class1.pdb
+C:\Users\User1\Documents\HT5net\LINQ\LINQtask\Class1\obj\Debug\Classes.csprojResolveAssemblyReference.cache
+C:\Users\User1\Documents\HT5net\LINQ\LINQtask\Class1\obj\Debug\Classes.csproj.CoreCompileInputs.cache
+C:\Users\User1\Documents\HT5net\LINQ\LINQtask\Class1\obj\Debug\Class1.dll
+C:\Users\User1\Documents\HT5net\LINQ\LINQtask\Class1\obj\Debug\Class1.pdb

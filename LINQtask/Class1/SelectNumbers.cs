@@ -12,10 +12,10 @@ namespace Classes
 {
    public  class SelectNumbers
     {
-		public static void SelectPrimeNumbers(FibonacciSecuence obj)
+		public static void SelectPrimeNumbers(ArrayList obj)
 		{
 
-			var query = from BigInteger bigintnum in obj.Fibsec
+			var query = from BigInteger bigintnum in obj 
 						where (bigintnum.IsPrime() ==true)
 						select bigintnum;
 
@@ -24,9 +24,9 @@ namespace Classes
 
 		}
 
-		public static void SelectNubersMultipleOfDigitsSum(FibonacciSecuence obj)
+		public static void SelectNubersMultipleOfDigitsSum(ArrayList obj)
 		{
-			var query = from BigInteger bigintnum in obj.Fibsec
+			var query = from BigInteger bigintnum in obj 
 						where (bigintnum % Counter.CountSumOfDigits(bigintnum)==0)
 						select bigintnum;
 
@@ -34,9 +34,9 @@ namespace Classes
 				Console.WriteLine(i);
 		}
 
-		public static void SelectNubersMultipleOfFive(FibonacciSecuence obj)
+		public static void SelectNubersMultipleOfFive(ArrayList obj)
 		{
-			var query = from BigInteger bigintnum in obj.Fibsec
+			var query = from BigInteger bigintnum in obj 
 						where (bigintnum % 5 == 0)
 						select bigintnum;
 
@@ -44,19 +44,19 @@ namespace Classes
 				Console.WriteLine(i);
 		}
 
-		public static void CountQuadraticRootsOfNumsWhichHaveDigitTwo(FibonacciSecuence obj)
+		public static void CountQuadraticRootsOfNumsWhichHaveDigitTwo(ArrayList obj)
 		{
-			var query = from BigInteger bigintnum in obj.Fibsec
+			var query = from BigInteger bigintnum in obj 
 						where (Counter.FindDigitTwo(bigintnum) == true)
 						select bigintnum;
 
 			foreach (BigInteger i in query)
-				Console.WriteLine(i);
+				Console.WriteLine(i + "  " + Counter.SquareFromBigInt(i));
 		}
 
-		public static void SortBySecondDigit(FibonacciSecuence obj)
+		public static void SortBySecondDigit(ArrayList obj)
 		{
-			var query = from BigInteger bigintnum in obj.Fibsec
+			var query = from BigInteger bigintnum in obj 
 						orderby Counter.FindSecondDigit(bigintnum) descending
 						select bigintnum;
 
@@ -65,11 +65,24 @@ namespace Classes
 
 		}
 
-		public static void MaxSumOfDigitsPowerTwo(FibonacciSecuence obj)
+		public static void MaxSumOfDigitsPowerTwo(ArrayList obj)
 		{
-			 
-		 
-		}
+            var query = from BigInteger bigintnum in obj 
+                        select Counter.SumOfDigitsPowerTwo(bigintnum);
 
-	} 
+            BigInteger max = query.Max();
+            Console.WriteLine(max);
+
+        }
+
+        public static void AverageAmountOfZeros(ArrayList obj)
+        {
+            var query = from BigInteger bigintnum in obj 
+                        select Counter.CountZerosInNumber(bigintnum);
+
+            Console.WriteLine(query.Average());
+             
+        }
+
+    } 
 }

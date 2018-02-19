@@ -15,3 +15,13 @@ C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Runner\bin\Debug\Cla
 C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Runner\bin\Debug\Class1.pdb
 C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Runner\obj\Debug\Runner.csprojResolveAssemblyReference.cache
 C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\Runner\bin\Debug\Customers.xml
+C:\Users\User1\Documents\HT5net\LINQ\LINQtask\Runner\bin\Debug\Customers.xml
+C:\Users\User1\Documents\HT5net\LINQ\LINQtask\Runner\bin\Debug\Runner.exe.config
+C:\Users\User1\Documents\HT5net\LINQ\LINQtask\Runner\bin\Debug\Runner.exe
+C:\Users\User1\Documents\HT5net\LINQ\LINQtask\Runner\bin\Debug\Runner.pdb
+C:\Users\User1\Documents\HT5net\LINQ\LINQtask\Runner\bin\Debug\Class1.dll
+C:\Users\User1\Documents\HT5net\LINQ\LINQtask\Runner\bin\Debug\Class1.pdb
+C:\Users\User1\Documents\HT5net\LINQ\LINQtask\Runner\obj\Debug\Runner.csprojResolveAssemblyReference.cache
+C:\Users\User1\Documents\HT5net\LINQ\LINQtask\Runner\obj\Debug\Runner.csproj.CoreCompileInputs.cache
+C:\Users\User1\Documents\HT5net\LINQ\LINQtask\Runner\obj\Debug\Runner.exe
+C:\Users\User1\Documents\HT5net\LINQ\LINQtask\Runner\obj\Debug\Runner.pdb
