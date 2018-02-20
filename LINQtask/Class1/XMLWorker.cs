@@ -27,12 +27,13 @@ namespace Classes
 				select order;
 				foreach (XElement order in orders)
 				{
-
+                    //double value;
 					root = order.Element("total");
 					Console.WriteLine(root);
+                    //if (double.TryParse(root.Value, out value))
 					sum += Convert.ToDouble(root.Value);
 				}
-
+                Console.WriteLine(sum);
 				if (sum > sumtocompare)
 					Console.WriteLine("Next Customer: " + sum);
 			}	
@@ -77,17 +78,37 @@ namespace Classes
 			IEnumerable<XElement> customers =
 				from customer in root.Elements("customer")
 				select customer;
-			foreach (XElement customer in customers)
-			{
+            foreach (XElement customer in customers)
+            {
 
-				XElement elname = customer.Element("name");
+                XElement elname = customer.Element("name");
 
-				root = customer.Element("orders").Element("order").Element("orderdate");
-				if (root!=null)
-				Console.WriteLine(elname.Value + " is customer since " + root.Value);
-
-
+                if (customer.Element("orders")!=null) 
+                {
+                    root = customer.Element("orders").Element("order").Element("orderdate");
+                    Console.WriteLine(elname.Value + " is customer since " + root.Value);
+                }
+                else continue;
 			}
 		}
+
+
+        public static void GroupByCountries()
+        {
+            XElement root = XElement.Load("Customers.xml");
+            IEnumerable<XElement> customers =
+                from customer in root.Elements("customer")
+                group customer by customer.Element("country").Value;
+                //group customer by customer.Element("country");
+
+
+            foreach (XElement customer in customers)
+            {
+
+
+                Console.WriteLine(customer);
+
+            }
+        }
 	}
 }

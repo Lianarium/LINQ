@@ -12,10 +12,10 @@ namespace Classes
 {
    public  class SelectNumbers
     {
-		public static void SelectPrimeNumbers(ArrayList obj)
+		public static void SelectPrimeNumbers(ArrayList array)
 		{
 
-			var query = from BigInteger bigintnum in obj 
+			var query = from BigInteger bigintnum in array 
 						where (bigintnum.IsPrime() ==true)
 						select bigintnum;
 
@@ -24,9 +24,9 @@ namespace Classes
 
 		}
 
-		public static void SelectNubersMultipleOfDigitsSum(ArrayList obj)
+		public static void SelectNubersMultipleOfDigitsSum(ArrayList array)
 		{
-			var query = from BigInteger bigintnum in obj 
+			var query = from BigInteger bigintnum in array 
 						where (bigintnum % Counter.CountSumOfDigits(bigintnum)==0)
 						select bigintnum;
 
@@ -34,10 +34,10 @@ namespace Classes
 				Console.WriteLine(i);
 		}
 
-		public static void SelectNubersMultipleOfFive(ArrayList obj)
+		public static void SelectNubersMultipleOf(int multiplier, ArrayList obj)
 		{
 			var query = from BigInteger bigintnum in obj 
-						where (bigintnum % 5 == 0)
+						where (bigintnum % multiplier == 0)
 						select bigintnum;
 
 			foreach (BigInteger i in query)
@@ -75,9 +75,19 @@ namespace Classes
 
         }
 
-        public static void AverageAmountOfZeros(ArrayList obj)
+        public static void SelectAccordingToCondition6(ArrayList array)
         {
-            var query = from BigInteger bigintnum in obj 
+            var query = from BigInteger bigintnum in array
+                        where (Counter.FindDigitTwo(bigintnum) == true)
+                        select bigintnum;
+
+            foreach (BigInteger i in query)
+                Console.WriteLine(i + "  " + Counter.SquareFromBigInt(i));
+        }
+
+        public static void AverageAmountOfZeros(ArrayList array)
+        {
+            var query = from BigInteger bigintnum in array 
                         select Counter.CountZerosInNumber(bigintnum);
 
             Console.WriteLine(query.Average());

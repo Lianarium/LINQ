@@ -89,15 +89,24 @@ namespace Classes
                 numberofdigits++;
                 num /= 10;
             }
-
+            //Console.WriteLine(numberofdigits);
             BigInteger lasttwodigits=0;
+
             if (numberofdigits >= 3)
-            { lasttwodigits = num % 100; }
-            else if (numberofdigits <=2 )
-            {  lasttwodigits= num; }
+            {
+                lasttwodigits = num % 100;
+                Console.WriteLine(lasttwodigits);
+                return lasttwodigits;
+            }
 
+            else if (numberofdigits <= 2)
+            {
+                lasttwodigits = num;
+                return lasttwodigits;
+            }
 
-            return lasttwodigits;
+            else return 0;
+           
         }
 
 

@@ -28,14 +28,14 @@ namespace Runner
 				Console.WriteLine(element);
 			}
 
-			//FibonacciSecuence.mtx2x2.Out(fibonaccisecuence);
-			Console.WriteLine("Secuence size: " + fibonaccisecuence.Fibsec.Count);
+            //FibonacciSecuence.mtx2x2.Out(fibonaccisecuence);
+            /*Console.WriteLine("Secuence size: " + fibonaccisecuence.Fibsec.Count);
 			Console.WriteLine("Prime numbers: ");
 			SelectNumbers.SelectPrimeNumbers(fibonaccisecuence.Fibsec);
 			Console.WriteLine("Condition 2: ");
 			SelectNumbers.SelectNubersMultipleOfDigitsSum(fibonaccisecuence.Fibsec);
 			Console.WriteLine("Condition 3: ");
-			SelectNumbers.SelectNubersMultipleOfFive(fibonaccisecuence.Fibsec);
+			SelectNumbers.SelectNubersMultipleOf(5,fibonaccisecuence.Fibsec);
 			Console.WriteLine("Condition 4: ");
 			SelectNumbers.CountQuadraticRootsOfNumsWhichHaveDigitTwo(fibonaccisecuence.Fibsec);
 			Console.WriteLine("Condition 5: ");
@@ -47,15 +47,17 @@ namespace Runner
 
             foreach (BigInteger element in fibonaccisecuence.Fibsec)
             {
-                Console.WriteLine(Counter.GetLastTwoDigits(element));
+              Counter.GetLastTwoDigits(element);
             }
             Console.WriteLine("!!!!!!!!!!!!!!!!!!!!!");
+            */
 
-			//XMLWorker.ChooseCustomersWhoseTotalOrderSumIsBiggerThan(5000);
-			//Console.WriteLine("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-			//Console.Clear();
-			//XMLWorker.ChooseCustomersWhoHadOrdersBiggerThan(4000);
-			//XMLWorker.SinceWhenIsAClient();
+            //XMLWorker.ChooseCustomersWhoseTotalOrderSumIsBiggerThan(5000);
+            //Console.WriteLine("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            //Console.Clear();
+            //XMLWorker.ChooseCustomersWhoHadOrdersBiggerThan(4000);
+            //XMLWorker.SinceWhenIsAClient();
+            XMLWorker.GroupByCountries();
 		}
 	}
 }
