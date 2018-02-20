@@ -36,8 +36,8 @@ namespace Classes
 
 		public static void SelectNubersMultipleOf(int multiplier, ArrayList obj)
 		{
-			var query = from BigInteger bigintnum in obj 
-						where (bigintnum % multiplier == 0)
+			var query = from BigInteger bigintnum in obj
+						where (Counter.IsMultiplieOf(bigintnum, multiplier))
 						select bigintnum;
 
 			foreach (BigInteger i in query)
@@ -73,16 +73,18 @@ namespace Classes
             BigInteger max = query.Max();
             Console.WriteLine(max);
 
+
+
         }
 
         public static void SelectAccordingToCondition6(ArrayList array)
         {
             var query = from BigInteger bigintnum in array
-                        where (Counter.FindDigitTwo(bigintnum) == true)
+                        where (Counter.IsMultiplieOf(bigintnum,3))  
                         select bigintnum;
 
             foreach (BigInteger i in query)
-                Console.WriteLine(i + "  " + Counter.SquareFromBigInt(i));
+                Console.WriteLine(Counter.GetLastTwoDigits(i));
         }
 
         public static void AverageAmountOfZeros(ArrayList array)

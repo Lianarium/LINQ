@@ -36,6 +36,15 @@ namespace Classes
 			else return false;
 		}
 
+
+		public static bool IsMultiplieOf(BigInteger num, int number)
+		{
+			if (num % number == 0)
+				return true;
+			else return false;
+		}
+
+
 		public static int FindSecondDigit(BigInteger num)
 		{
 			string representstring = num.ToString();
@@ -62,52 +71,36 @@ namespace Classes
 		}
 
 
-        public static int CountZerosInNumber(BigInteger num)
+        public static int  CountZerosInNumber(BigInteger num)
         {
-            string representstring = num.ToString();
-            char[] representarray = representstring.ToCharArray();
-            int countzeros = 0;
 
-            
-                 for (int i=0; i<representarray.Length; i++)
-                {
-                    if (representarray[i] == '0')
-                        countzeros++;
-                }
+			string representstring = num.ToString();
+			char[] representarray = representstring.ToCharArray();
+			int countzeros = 0;
 
-            return countzeros;
-            
 
-        }
+			for (int i = 0; i < representarray.Length; i++)
+			{
+				if (representarray[i] == '0')
+					countzeros++;
+			}
 
-        public static BigInteger GetLastTwoDigits(BigInteger num)
+			return countzeros;
+
+		}
+
+        public static string GetLastTwoDigits(BigInteger num)
         {
-            int numberofdigits=0;
+			
+			string representstring = num.ToString();
+			char[] representarray = representstring.ToCharArray();
+			
+		 
 
-            while (num != 0)
-            {
-                numberofdigits++;
-                num /= 10;
-            }
-            //Console.WriteLine(numberofdigits);
-            BigInteger lasttwodigits=0;
-
-            if (numberofdigits >= 3)
-            {
-                lasttwodigits = num % 100;
-                Console.WriteLine(lasttwodigits);
-                return lasttwodigits;
-            }
-
-            else if (numberofdigits <= 2)
-            {
-                lasttwodigits = num;
-                return lasttwodigits;
-            }
-
-            else return 0;
-           
-        }
+			string result = string.Join(null, representarray[0].ToString(),representarray[1].ToString());
+			Console.WriteLine(result);
+			return result;
+		}
 
 
         public static BigInteger SquareFromBigInt(BigInteger n)

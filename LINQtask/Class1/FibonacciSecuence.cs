@@ -10,25 +10,12 @@ namespace Classes
 {
 	public class FibonacciSecuence : IComparable <int>
 	{
-		int number;
-		ArrayList fibsec;
-
-		public int Number
+	 
+		 
+     	public static ArrayList CreateFibonacciSecuence()
 		{
-			set { number = value;}
-			get { return number;}
-		}
-
-		public ArrayList Fibsec
-			{
-			get { return fibsec;}
-			}
-
-
-		public FibonacciSecuence(int num)
-		{
-			this.number = num;
-			this.fibsec = new ArrayList();
+			ArrayList fibsec = new ArrayList();
+			return fibsec;
 		}
 
 		public static BigInteger IntPower(BigInteger number, short power)
@@ -44,10 +31,7 @@ namespace Classes
 			return tmp;
 		}
 
-		public int CompareTo(object obj)
-		{
-			throw new NotImplementedException();
-		}
+		 
 
 		public int CompareTo(int other)
 		{
@@ -89,10 +73,14 @@ namespace Classes
 				return IntPower(fibMtx, (short)(n - 1))._11;
 			}
 
-			public static void Out(FibonacciSecuence obj)
+			 
+			public static void OutputSecuence(ArrayList sec)
 			{
-				foreach (BigInteger num in obj.fibsec)
-					Console.WriteLine(num);
+				Console.WriteLine("Fibonacci secuence: ");
+				foreach (BigInteger element in sec)
+				{
+					Console.WriteLine(element);
+				}
 			}
 		}
 	}

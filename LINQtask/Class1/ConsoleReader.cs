@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Classes
 {
-	class ConsoleReader
+	public class ConsoleReader
 	{ 
 
 	  public static int ReadNumber()
@@ -16,7 +16,7 @@ namespace Classes
 
 			do
 			{
-				Console.WriteLine("Enter the number: ");
+				//Console.WriteLine("Enter the number you need: ");
 				number = Console.ReadLine();
 
 			} while (!(int.TryParse(number, out intnumber)));

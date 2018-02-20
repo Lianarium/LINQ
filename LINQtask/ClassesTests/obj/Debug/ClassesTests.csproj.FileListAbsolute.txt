@@ -1,0 +1,8 @@
+C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\ClassesTests\bin\Debug\ClassesTests.dll
+C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\ClassesTests\bin\Debug\ClassesTests.pdb
+C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\ClassesTests\bin\Debug\Class1.dll
+C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\ClassesTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\ClassesTests\bin\Debug\Class1.pdb
+C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\ClassesTests\obj\Debug\ClassesTests.csprojResolveAssemblyReference.cache
+C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\ClassesTests\obj\Debug\ClassesTests.dll
+C:\Users\Alina_Apet\Documents\HomeTask5(LINQ)\LINQ\LINQtask\ClassesTests\obj\Debug\ClassesTests.pdb
